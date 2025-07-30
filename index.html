@@ -11,16 +11,25 @@
 
   <style>
     body {
-      font-family: 'Inter', sans-serif;
-      font-weight: 600;
-      background-color: #000;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    }
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+    /* Hide scrollbar for all browsers */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+
+  /* Hide scrollbar for WebKit browsers */
+  body::-webkit-scrollbar {
+    display: none;
+  }
 
     .countdown-box {
       background-color: #111;
